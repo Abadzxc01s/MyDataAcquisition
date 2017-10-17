@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Data Acquisition System : Home page</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- for fontawesome icon css file -->
+    <link href="font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet">
+	<link href="weather-icons-master/css/weather-icons.min.css" rel="stylesheet">
+    <!-- superslides css -->
+    <link rel="stylesheet" href="css/superslides.css">
+    <!-- for content animate css file -->
+    <link rel="stylesheet" href="css/animate.css">    
+    <!-- slick slider css file -->
+    <link href="css/slick.css" rel="stylesheet">        
+    <!-- website theme color file -->   
+     <link id="switcher" href="css/themes/yellow-theme.css" rel="stylesheet">    
+    <!-- main site css file -->    
+    <link href="style.css" rel="stylesheet">    
+    <!-- google fonts  -->  
+	    <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>    
+    <link href='http://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'> 
+    <!-- Favicon -->
+  </head>
+<body>
+
+  <!-- Preloader -->
+  <div id="preloader">
+    <div id="status">&nbsp;</div>
+  </div>
+ 
+  <!-- End Preloader -->   
+  <a class="scrollToTop" href="#"><i class="fa fa-angle-up"></i></a>
+  
+  <!-- start navbar -->
+  <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="index.html">Data Acquisition <span>System</span></a>
+        <!-- <a class="navbar-brand" href="index.html"><img src="img/logo.png" alt="logo"></a> -->
+      </div>
+      <div id="navbar" class="navbar-collapse collapse navbar_area">          
+        <ul class="nav navbar-nav navbar-right custom_nav">
+          <li class="active"><a href="index.html">Home</a></li>
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Graphs <span class="caret"></span></a>
+            <ul class="dropdown-menu" role="menu">
+              <li><a href="graph.php">Graph of all data acquired</a></li>
+              <li><a href="rhdp.php">Relative Humidity and Dewpoint Graph</a></li>
+              <li><a href="templdr.php">Temperature and Light Visibility Graph</a></li>               
+            </ul>
+          </li>             
+          <li><a href="table.php">Data Table</a></li>                  
+        </ul>
+      </div><!--/.nav-collapse -->
+    </div>
+  </nav>
+  <!-- End navbar -->
+
+  <!-- start slider section -->
+  <section id="sliderSection">            
+    <div class="mainslider_area">
+      <!-- Start super slider -->
+      <div id="slides">
+        <ul class="slides-container">
+          <!-- Start single slider-->
+          <li>
+            <img src="img/slider/123.jpg" alt="img">
+            <div class="slider_caption">
+              <h2><span>Welcome To</span> DAQ System for Vapor Pressure Deficit of Plants</h2>
+              <p>The VPD is currently regarded of how plants really 'feel' and react to the humidity in the growing environment. From a plant's perspective the VPD is the difference between the vapor pressure inside the leaf compared to the vapor pressure of the air</p>
+              <a class="slider_btn" href="#">Read More</a>
+            </div>
+          </li> 
+          <!-- Start single slider-->           
+          <li>
+            <img src="img/slider/1234.jpg" alt="img">
+             <div class="slider_caption">
+              <h2>The objective<span> is to create an embedded data acqusition system</span></h2>
+              <p>The objective of the project is to create an embedded data acquisition system than acquire relative humidity, dewpoint, light visibility and air temperature that can affect the growth of the plants</p>
+              <a class="slider_btn" href="#">Read More</a>
+            </div>
+            </li>
+          <!-- Start single slider-->
+          <li>
+            <img src="img/slider/12.jpg" alt="img">
+             <div class="slider_caption">
+              <h2><span>QUALITY</span> & PRODUCTION</h2>
+              <p>Through this project the goal of the project is to increase the quality of the plant and increase the production of the farmers by helping them to monitor the following variables that might affect the growth of their plants</p>
+              <a class="slider_btn" href="#">Read More</a>
+            </div>
+           </li>
+        </ul>
+        <nav class="slides-navigation">
+          <a href="#" class="next"></a>
+          <a href="#" class="prev"></a>
+        </nav>
+      </div>
+    </div>
+  </div>    
+  </section>
+  <!-- End slider section -->
+
+  <!-- Start Service area -->
+  <section id="service">
+    <div class="container">
+      <div class="col-lg-12 col-md-12 col-sm-12">
+        <div class="service_area">
+          <div class="service_title">
+            <hr>
+            <h2>DAQ SYSTEM FOR VAPOR PRESSURE DEFICIT OF PLANTS</h2>
+            <p>To nourish is to flourish</p>
+          </div>
+          <ul class="service_nav wow flipInX">
+            <li>
+              <a class="service_icon" href="#"><i class="fa fa-bullseye"></i></a>
+              <h2>Accurate and Reliable Data</h2>
+              <p>The developers make sure that the data acquisition system acquired data is realiable and accurate by conducting testing to the current system available in the market</p>
+              <a class="read_more" href="#">read more<i class="fa fa-long-arrow-right"></i></a>
+            </li>
+           <li>
+              <a class="service_icon" href="#"><i class="fa fa-gears"> <i class="fa fa-clock-o"></i></i></a>
+              <h2>Ease of Setup & Real Time</h2>
+              <p>Setting up the system for your farm environment is easy and the developers created a user interface wherein the user can know the real time data acquired by the system</p>
+              <a class="read_more" href="#">read more<i class="fa fa-long-arrow-right"></i></a>
+            </li>
+            <li>
+              <a class="service_icon" href="#"><i class="fa fa-users"></i></a>
+              <h2>User Friendly</h2>
+              <p>The developers created gui that is user friendly wherein the user can understand all the data acquired by the data acquisition system.</p>
+              <a class="read_more" href="#">read more<i class="fa fa-long-arrow-right"></i></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Service area -->
+
+  <!-- start How it works area -->
+  <section id="howWorks">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 col-md-12 col-sm-12">
+          <div class="howworks_area">
+            <div class="client_title">
+              <hr>
+              <h2>How <span>It Works</span></h2>
+            </div>
+            <div class="row">
+              <div class="col-lg-6 col-md-6 col-sm-6">
+                <div class="howworks_slider wow fadeInLeftBig">
+                  <div class="slider_area">
+                      <!-- Set up your HTML -->
+                    <div class="slick_slider">
+                      <div class="single_iteam">
+                        <a href="single_page.html"> <img src="img/works_slider1.png" alt="img"></a>                          
+                      </div>
+                      <div class="single_iteam">
+                        <a href="single_page.html"> <img src="img/workslider_2.png" alt="img"></a>                          
+                      </div>
+                      <div class="single_iteam">
+                        <a href="single_page.html"> <img src="img/works_slider1.png" alt="img"></a>                          
+                      </div>
+                      <div class="single_iteam">
+                        <a href="single_page.html"> <img src="img/workslider_2.png" alt="img"></a>                          
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-6 col-md-6 col-sm-6">
+                <div class="howworks_featured wow fadeInRightBig">
+                <!-- single featured -->
+                  <div class="media">
+                    <a class="media-left media-middle" href="#">
+                      <i class="fa fa-gear fa-3x"></i>		
+					   &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+                    </a>
+                    <div class="media-body">
+                      <h4 class="media-heading"> Setup the DAQ System </h4>
+                      <p>Setting up the system close to your plant farm and server. Remember that the system use bluetooth and has a maximum range.</p>
+                    </div>
+                  </div>
+                  <!-- End single featured -->
+
+                  <!-- single featured -->
+                  <div class="media">
+                    <a class="media-left media-middle" href="#">
+                      <i class="fa fa-bluetooth fa-2x"></i>
+					   <i class="fa fa-laptop fa-2x"></i>
+					   &nbsp&nbsp
+                    </a>
+                    <div class="media-body">
+                      <h4 class="media-heading"> Connect your laptop bluetooth to the DAQ System bluetooth</h4>
+                      <p>Pairing your laptop bluetooth to the DAQ System bluetooth is necessary since it would the transmission medium of the data acquired of your system going to your server database. </p>
+                    </div>
+                  </div>
+                  <!-- End single featured -->
+					<div class="media">
+                    <a class="media-left media-middle" href="#">
+                      <i class="fa fa-play-circle fa-3x"></i>
+					   &nbsp&nbsp &nbsp&nbsp &nbsp
+                    </a>
+                    <div class="media-body">
+                      <h4 class="media-heading">Run the application</h4>
+                      <p>After pairing the bluetooth you should run the DAQ System application and run it to start acquiring data from your plant farm</p>
+                    </div>
+                  </div>
+                  <!-- single featured -->
+                  <div class="media">
+                    <a class="media-left media-middle" href="#">
+                      <i class="fa fa-line-chart fa-3x"></i>
+					   &nbsp&nbsp &nbsp
+                    </a>
+                    <div class="media-body">
+                      <h4 class="media-heading">View the data</h4>
+                      <p>After doing the following steps. Your are now ready to view the data you have been acquired and learn how this data affect the growth of your plants in terms of Vapor Pressure Deficit</p>
+                    </div>
+                  </div>
+                  <!-- End single featured -->
+                  <a class="featured_btn" href="#">Try it now for free!</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End How it works area -->
+
+  <!-- start Our Team area -->
+  <section id="ourTeam">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 col-md-12 col-sm-12">
+          <div class="team_area wow fadeInLeftBig">
+            <div class="team_title">
+              <hr>
+              <h2>Meet <span>Our Team</span></h2>
+              <p>These are the following developers that make the project possbile</p>
+            </div>
+            <div class="team">
+              <ul class="team_nav">
+                <li>
+                  <div class="team_img">
+                    <img src="img/abad.jpg" alt="team-img">
+                  </div>
+                  <div class="team_content">
+                    <h4>Joshua Abad</h4>
+                    <p>Programmer</p>
+                  </div>
+                  <div class="team_social">
+                    <a href="https://www.facebook.com/Abadzxc"><span class="fa fa-facebook"></span></a>
+                    <a href="https://twitter.com/BaadJosh"><span class="fa fa-twitter"></span></a>
+                    <a href="https://plus.google.com/u/0/116720924224486761763"><span class="fa fa-google-plus"></span></a>
+                  </div>
+                </li>
+                <li>
+                  <div class="team_img">
+                    <img src="img/bugscancer.jpg" alt="team-img">
+                  </div>
+                  <div class="team_content">
+                    <h4 class="team_name">John Leo Bugarin</h4>
+                    <p>Hardware Specialist</p>
+                  </div>
+                  <div class="team_social">
+                    <a href="https://www.facebook.com/johnleo.bugarin"><span class="fa fa-facebook"></span></a>
+                    <a href="https://twitter.com/JohnLeoBugarin"><span class="fa fa-twitter"></span></a>
+                    <a href="https://plus.google.com/u/0/116720924224486761763"><span class="fa fa-google-plus"></span></a>
+                  </div>
+                </li>
+                <li>
+                  <div class="team_img">
+                    <img src="img/nolbs.jpg" alt="team-img">
+                  </div>
+                  <div class="team_content">
+                    <h4 class="team_name">Nholyvie Landerio</h4>
+                    <p>Documentation</p>
+                  </div>
+                  <div class="team_social">
+                    <a href="#"><span class="fa fa-facebook"></span></a>
+                    <a href="#"><span class="fa fa-twitter"></span></a>
+                    <a href="#"><span class="fa fa-linkedin"></span></a>
+                    <a href="#"><span class="fa fa-google-plus"></span></a>
+                  </div>
+                </li>
+                <li>
+                  <div class="team_img">
+                    <img src="img/von_cancer.jpg" alt="team-img">
+                  </div>
+                  <div class="team_content">
+                    <h4 class="team_name">Von Andre Ramos</h4>
+                    <p>Hardware Design</p>
+                  </div>
+                  <div class="team_social">
+                    <a href="#"><span class="fa fa-facebook"></span></a>
+                    <a href="#"><span class="fa fa-twitter"></span></a>
+                    <a href="#"><span class="fa fa-linkedin"></span></a>
+                    <a href="#"><span class="fa fa-google-plus"></span></a>
+                  </div>
+                </li>
+               
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Our Team area -->
+
+
+  
+ 
+  
+  <!-- jQuery Library -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <!-- For content animatin  -->
+  <script src="js/wow.min.js"></script>
+  <!-- bootstrap js file -->
+  <script src="js/bootstrap.min.js"></script> 
+  <!-- superslides slider -->
+  <script src="js/jquery.easing.1.3.js"></script>
+  <script src="js/jquery.animate-enhanced.min.js"></script>
+  <script src="js/jquery.superslides.min.js" type="text/javascript" charset="utf-8"></script>
+  <!-- slick slider js file -->
+  <script src="js/slick.min.js"></script>
+  <!-- Google map -->
+  <script src="https://maps.googleapis.com/maps/api/js"></script>
+  <script src="js/jquery.ui.map.js"></script>
+
+  <!-- custom js file include -->
+  <script src="js/custom.js"></script>  
+      
+  </body>
+</html>
