@@ -1,5 +1,5 @@
 
-#Data Acquisition System for Monitoring Plants Vapor Pressure Deficit
+Data Acquisition System for Monitoring Plants Vapor Pressure Deficit
 
 Humidity is HUGE when it comes to growing plants. An important milestone in becoming a competent and responsive grower is developing an understanding of what humidity is, how plants respond to it, and how you can manage and manipulate it.
 
